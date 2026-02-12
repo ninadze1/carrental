@@ -77,3 +77,15 @@ color: #FFFFFF;
 
 
 }
+
+@media (min-width:300px) and (max-width:500px){
+    .big-menu{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
