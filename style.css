@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color1: #00A8A8;
+    --color2:#FFFFFF;
+    --color3: #000000;
+    --color4: #161E21;
+    --font1: "Genos", sans-serif;
+    --font2: "Anybody", sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: var(--color4);
+    color: var(--color2);
+}
+
+header,main,footer{
+    padding: 20px 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color2);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    width: 30%;
+}
+
+.nav__link{
+    font-family: var(--font2);
+    color: var(--color4);
+    text-decoration: none;
+}
+
+.header__cart{
+    background: none;
+    border: none;
+}
+
+.header__login{
+    background-color: var(--color1);
+    padding: 10px;
+    color: var(--color2);
+    border-radius: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h1{
+ 
+font-family: 'Genos';
+font-style: normal;
+font-weight: 700;
+font-size: 140px;
+line-height: 100%;
+/* or 140px */
+letter-spacing: -5px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
